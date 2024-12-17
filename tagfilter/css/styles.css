@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.filter-container {
+    padding: 1rem;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.filter-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.filter-button {
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem 0.5rem 0;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    color: white;
+    background-color: #21419B;
+    transition: background-color 0.3s;
+    border-radius: 15px; 
+}
+
+.filter-button:hover {
+    background-color: #ddd;
+}
+
+.filter-button.active {
+    background-color: #ffffff;
+    color: #000000;
+    border-color: #21419B;
+    border-radius: 15px; 
+}
+
+.post h2 {
+    color: #21419B !important;
+    font-size: 18px !important;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.post {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    background-color: #fff;
+    position: relative;
+    overflow: hidden; 
+    margin-bottom: 20px; 
+    display: flex;
+    flex-direction: column;
+    
+    min-height: 300px; 
+}
+
+
+.post-thumbnail {
+    margin-bottom: 10px; 
+}
+.post-tags {
+    margin-bottom: 10px; 
+    padding: 0; 
+}
+.post-tags ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+}
+
+.post-tags li {
+    display: inline; 
+    margin-right: 10px; 
+}
+
+
+.post-excerpt {
+    margin-bottom: 2rem; 
+    flex-grow: 1; 
+}
+
+.read-more-button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #21419B;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+    align-self: flex-start; 
+}
+
+.read-more-button:hover {
+    background-color: #1a2c6f; 
+}
+
+img.attachment-medium.size-medium.wp-post-image.lazyloaded {
+    width: 100%; 
+}
+
+.filter-button {
+    text-transform: uppercase;
+   
+}
+
+
+.post-tags {
+    margin-top: 10px;
+ 
+   
+}
+.filter-button {
+    text-transform: uppercase;
+}
+.post-author {
+    font-style: italic;
+    color: #21419B;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.post-tags a {
+    color: #CE2029 !important;
+    font-weight: bold;
+}
+.tag-item{
+    margin-left: 5px;
+    color: #CE2029 !important;
+}
+li.tag-item {
+    margin: 0;
+    color: #CE2029 !important;
+}
+.semi-colon {
+    color: #CE2029 !important;
+    font-weight: bold;
+}
